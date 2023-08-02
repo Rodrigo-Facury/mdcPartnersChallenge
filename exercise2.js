@@ -31,4 +31,3 @@ readline.question('Please press "Enter" to get a list of the first 10 prime numb
 
   readline.close();
 });
-
