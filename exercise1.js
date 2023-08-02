@@ -6,5 +6,5 @@ function calculator(num1, num2, operator) {
     '/': () => num1 / num2,
   }
 
-  return operationByOperator[operator];
+  return operationByOperator[operator]();
 }
