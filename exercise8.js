@@ -20,7 +20,11 @@ const readline = require('readline').createInterface({
 });
 
 readline.question("Enter the capital, interest rate (per month), and investment time (in months) to check the final investment value. (Example: 1550.20 0.02 36) \n", (investmentInfo) => {
-  console.log(investmentCalculator(investmentInfo));
+  try {
+    console.log(investmentCalculator(investmentInfo));
+  } catch (err) {
+    console.log(err);
+  }
 
   readline.close();
 });

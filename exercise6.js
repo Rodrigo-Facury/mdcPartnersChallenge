@@ -17,7 +17,11 @@ const readline = require('readline').createInterface({
 });
 
 readline.question('Enter a word to count its vowels \n', (str) => {
-  console.log(countVowels(str));
+  try {
+    console.log(countVowels(str));
+  } catch (err) {
+    console.log(err);
+  }
 
   readline.close();
 });

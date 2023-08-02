@@ -2,6 +2,12 @@
 
 This is an example of my coding and logic skills. I chose to solve these challenges using JavaScript.
 
+### How to run
+
+Each exercise was solved in an specific file. For example: Exercise 1 - exercise1.js.
+
+Run the file and follow the prompt instructions. Thank you!
+
 ## Exercise 1: Simple Calculator
 
 Create a calculator that takes two numbers and an operator (+, -, *, /) and returns the result
